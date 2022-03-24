@@ -1,6 +1,11 @@
 # Intel RealSense Gazebo/ROS
 Intel Realsense Tracking and Depth camera simulations and URDF macros.
 
+## FORK
+
+This fork changes the realsense D435 model in `gazebo` to publish
+`sensor_msgs/Pointcloud2` messages under the topic `depth/color/points`.
+The change is made by setting this [tag](https://github.com/nilseuropa/realsense_ros_gazebo/blob/f3656354c737f421a8fad91bd26b5a7cbb8ddb80/xacro/depthcam.xacro#L239) to **true**.
 
 
 ## RealSense T265 ##
